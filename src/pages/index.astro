@@ -1,5 +1,8 @@
 ---
 import '../styles/index.css'
+import selfie from '../public/selfie.jpg'
+import linkedIn from '../public/linkedIn.png'
+import youtube from '../public/Youtube.png'
 ---
 
 <html lang="en">
@@ -12,7 +15,7 @@ import '../styles/index.css'
 		rel="stylesheet"
 		href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 		/>
-  		<link rel="icon" type="image/x-icon" href="../public/selfie.jpg">
+  		<link rel="icon" type="image/x-icon" href={selfie}>
 		<title>Astro</title>
 	</head>
 	<body>
@@ -31,12 +34,12 @@ import '../styles/index.css'
 		  <div class="social">
 			<div class="icons">
 			  <a class="social-links" href="https://www.linkedin.com/in/stevenalp18/">
-			  <img class="img1" src="../public/linkedIn.png" alt="linkedIn">
+			  <img class="img1" src={linkedIn} alt="linkedIn">
 			</a>
 			</div>
 			<div class="icons">
 			  <a class="social-links" href="https://www.youtube.com/channel/UCNvX216O08aIcdtcbxD7oLQ">
-			  <img class="img2"src="../public/Youtube.png" alt="Youtube">
+			  <img class="img2"src={youtube} alt="Youtube">
 			</a>
 			</div>
 		  </div>
