@@ -1,5 +1,6 @@
 ---
 import '../styles/about.css';
+import selfie from '../../public/selfie.jpg'
 ---
 
 <!DOCTYPE html>
@@ -11,12 +12,12 @@ import '../styles/about.css';
     <title>About Me</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-    <link rel="icon" type="image/x-icon" href="../public/selfie.jpg">
+    <link rel="icon" type="image/x-icon" href={selfie}>
 </head>
 <body>
     <div class="container">
         <h1 class="h1 animate__bounceInDown">About Me.</h1>
-        <img class="img animate__fadeIn" src="../selfie.jpg">
+        <img class="img animate__fadeIn" src={selfie}>
         <p class="p-text animate__bounceInLeft">Hi, my name is Steven Perez. I am a self taught web developer.</p> 
         <p class="p-text animate__bounceInRight">I love to build websites for myself and for clients. I am passionate about this and enjoy what I do.</p>
         <p class="p-text animate__bounceInLeft">Ever since I was a little kid, I would play with robotC and VEX robotcs and now like to play with HTML, CSS, Javascript, Bootstap, Wordpress, Python, and many other skills that I have picked up along my journey of becoming a Front End developer.</p>

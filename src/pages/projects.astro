@@ -1,5 +1,11 @@
 ---
 import '../styles/projects.css'
+import selfie from '../../public/selfie.jpg'
+import wcImg from '../../public/weightConversion.png'
+import rpImg from '../../public/rolyn.png'
+import toyotaImg from '../../public/toyota.png'
+import jobappImg from '../../public/jobApplication.png'
+import imgDragonImg from '../../public/imagineDragons.png'
 ---
 
 <html lang="en">
@@ -8,7 +14,7 @@ import '../styles/projects.css'
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects Site</title>
-    <link rel="icon" type="image/x-icon" href="../public/selfie.jpg">
+    <link rel="icon" type="image/x-icon" href={selfie}>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
 </head>
@@ -18,7 +24,7 @@ import '../styles/projects.css'
         <div class="showcase">
             <div class="projects animate__zoomIn">
                 <a href="https://stevenalp18.github.io/weight-conversion/" class="link-a">
-                    <img class="project-img" src="../public/weightConversion.png" alt="Weight Conversion Project image">
+                    <img class="project-img" src={wcImg} alt="Weight Conversion Project image">
                     <h2 class="h2">Weight Conversion</h2>
                     <p class="description">Weight conversion calculator was created using pure Javascript, Media Queries, 
                         Dom manipulation, and functions. You are able to input a number with a unit of weight measurement given and it will return 6 different units back. lb, g, kg, oz, mg, mt</p>
@@ -26,7 +32,7 @@ import '../styles/projects.css'
                 </div>
             <div class="projects animate__zoomIn">
                 <a href="https://rolynpaintingllc.com/" class="link-a">
-                    <img class="project-img" src="../public/rolyn.png" alt="Rolyn Painting LLC">
+                    <img class="project-img" src={rpImg} alt="Rolyn Painting LLC">
                     <h2 class="h2">Rolyn Painting LLC</h2>
                     <p class="description">
                         Rolyn Painting was for a Painting Professional who requested I use Wordpress CMS, 
@@ -37,7 +43,7 @@ import '../styles/projects.css'
             </div>
             <div class="projects animate__zoomIn">
                 <a href="https://stevenalp18.github.io/ToyotaLandingPage/" class="link-a">
-                    <img class="project-img" src="../public/Toyota.png" alt="Toyota Landing Page">
+                    <img class="project-img" src={toyotaImg} alt="Toyota Landing Page">
                     <h2 class="h2">Toyota Landing Page</h2>
                     <p class="description">I did a Landing Page for Toyota as a personal project to practice more responsiveness.
                         I primarily used HTML and CSS with this.
@@ -46,7 +52,7 @@ import '../styles/projects.css'
             </div>
             <div class="projects animate__zoomIn">
                 <a href="https://stevenalp18.github.io/JobApplication/" class="link-a">
-                    <img class="project-img" src="../public/jobApplication.png" alt="Job Application">
+                    <img class="project-img" src={jobappImg} alt="Job Application">
                     <h2 class="h2">Job Application</h2>
                     <p class="description">I did a Job Application to practice my Forms in 
                         HTML along with the Linear Gradient property to add a happy design and a welcoming feel. 
@@ -55,7 +61,7 @@ import '../styles/projects.css'
             </div>
             <div class="projects animate__zoomIn">                
                 <a href="https://stevenalp18.github.io/ImagineDragonsTribute/" class="link-a">
-                    <img class="project-img" src="../public/imagineDragons.png" alt="Imagine Dragons">
+                    <img class="project-img" src={imgDragonImg} alt="Imagine Dragons">
                     <h2 class="h2">Imagine Dragons Tribute</h2>
                     <p class="description">This was a Tribute Page to one of my favorite bands in which I designed 
                         to be Responsive and is my first Responsive website that I created. In essence, this is the 
